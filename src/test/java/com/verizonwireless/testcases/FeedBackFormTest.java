@@ -19,9 +19,9 @@ public class FeedBackFormTest extends BaseClass {
         explicitWait(webDriver,"ratingFirstDigit_XPATH");
         click(webDriver,"ratingFirstDigit_XPATH");
         addThreadSleep(webDriver,500);
-        click(webDriver,"leaveCommentsField_XPATH");
+        click(webDriver,"leaveCommentsField_XPATH$");
         addThreadSleep(webDriver,500);
-        type(webDriver,"leaveCommentsField_XPATH","dummyLoremIpsum");
+        type(webDriver,"leaveCommentsField_XPATH$","dummyLoremIpsum");
         addThreadSleep(webDriver,500);
         click(webDriver,"submitFormButton_XPATH");
 
@@ -38,9 +38,9 @@ public class FeedBackFormTest extends BaseClass {
         explicitWait(webDriver,"ratingSecondDigit_XPATH");
         click(webDriver,"ratingSecondDigit_XPATH");
         addThreadSleep(webDriver,500);
-        click(webDriver,"leaveCommentsField_XPATH");
+        click(webDriver,"leaveCommentsField_XPATH$");
         addThreadSleep(webDriver,500);
-        type(webDriver,"leaveCommentsField_XPATH","dummyLoremIpsum");
+        type(webDriver,"leaveCommentsField_XPATH$","dummyLoremIpsum");
         addThreadSleep(webDriver,500);
         click(webDriver,"submitFormButton_XPATH");
 
@@ -57,9 +57,9 @@ public class FeedBackFormTest extends BaseClass {
         explicitWait(webDriver,"ratingThirdDigit_XPATH");
         click(webDriver,"ratingThirdDigit_XPATH");
         addThreadSleep(webDriver,500);
-        click(webDriver,"leaveCommentsField_XPATH");
+        click(webDriver,"leaveCommentsField_XPATH$");
         addThreadSleep(webDriver,500);
-        type(webDriver,"leaveCommentsField_XPATH","dummyLoremIpsum");
+        type(webDriver,"leaveCommentsField_XPATH$","dummyLoremIpsum");
         addThreadSleep(webDriver,500);
         click(webDriver,"submitFormButton_XPATH");
 
@@ -75,9 +75,9 @@ public class FeedBackFormTest extends BaseClass {
         explicitWait(webDriver,"ratingForthDigit_XPATH");
         click(webDriver,"ratingForthDigit_XPATH");
         addThreadSleep(webDriver,500);
-        click(webDriver,"leaveCommentsField_XPATH");
+        click(webDriver,"leaveCommentsField_XPATH$");
         addThreadSleep(webDriver,500);
-        type(webDriver,"leaveCommentsField_XPATH","dummyLoremIpsum");
+        type(webDriver,"leaveCommentsField_XPATH$","dummyLoremIpsum");
         addThreadSleep(webDriver,500);
         click(webDriver,"submitFormButton_XPATH");
 
@@ -94,9 +94,9 @@ public class FeedBackFormTest extends BaseClass {
         explicitWait(webDriver,"ratingFifthDigit_XPATH");
         click(webDriver,"ratingFifthDigit_XPATH");
         addThreadSleep(webDriver,500);
-        click(webDriver,"leaveCommentsField_XPATH");
+        click(webDriver,"leaveCommentsField_XPATH$");
         addThreadSleep(webDriver,500);
-        type(webDriver,"leaveCommentsField_XPATH","dummyLoremIpsum");
+        type(webDriver,"leaveCommentsField_XPATH$","dummyLoremIpsum");
         addThreadSleep(webDriver,500);
         click(webDriver,"submitFormButton_XPATH");
 

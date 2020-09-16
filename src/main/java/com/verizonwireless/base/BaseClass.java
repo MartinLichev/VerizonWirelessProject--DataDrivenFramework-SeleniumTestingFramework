@@ -126,20 +126,22 @@ public class BaseClass {
     public void type(WebDriver webDriver, String locator, String input) {
 
         if (locator.endsWith("_XPATH")) {
-            webDriver.findElement(By.xpath(pagesElementsProperties.getProperty(locator))).sendKeys(input);
+            webDriver.findElement(By.xpath(pagesElementsProperties.getProperty(locator))).sendKeys(configProperties.getProperty(input));
 
         } else if (locator.endsWith("_CSS")) {
-            webDriver.findElement(By.cssSelector(pagesElementsProperties.getProperty(locator))).sendKeys(input);
+            webDriver.findElement(By.cssSelector(pagesElementsProperties.getProperty(locator))).sendKeys(configProperties.getProperty(input));
 
         } else if (locator.endsWith("_ID")) {
-            webDriver.findElement(By.id(pagesElementsProperties.getProperty(locator))).sendKeys(input);
+            webDriver.findElement(By.id(pagesElementsProperties.getProperty(locator))).sendKeys(configProperties.getProperty(input));
 
         } else if (locator.endsWith("_TagName")) {
-            webDriver.findElement(By.tagName(pagesElementsProperties.getProperty(locator))).sendKeys(input);
+            webDriver.findElement(By.tagName(pagesElementsProperties.getProperty(locator))).sendKeys(configProperties.getProperty(input));
 
         } else if (locator.endsWith("_ClassName")) {
-            webDriver.findElement(By.className(pagesElementsProperties.getProperty(locator))).sendKeys(input);
+            webDriver.findElement(By.className(pagesElementsProperties.getProperty(locator))).sendKeys(configProperties.getProperty(input));
 
+        } else if(locator.endsWith("_XPATH$")){
+            webDriver.findElement(By.xpath(pagesElementsProperties.getProperty(locator))).sendKeys(loremIpsumDummyFileProperties.getProperty(input));
         }
 
     }
