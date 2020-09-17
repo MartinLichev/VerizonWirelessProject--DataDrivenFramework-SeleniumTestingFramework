@@ -2,6 +2,7 @@ package com.verizonwireless.testcases;
 
 import com.verizonwireless.base.BaseClass;
 import org.openqa.selenium.By;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.util.Set;

@@ -110,9 +110,14 @@
             <version>3.6</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/com.beust/jcommander -->
+        <dependency>
+            <groupId>com.beust</groupId>
+            <artifactId>jcommander</artifactId>
+            <version>1.69</version>
+        </dependency>
 
     </dependencies>
-
     <build>
         <plugins>
 
@@ -121,13 +126,12 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.18.1</version>
                 <configuration>
-                    <testFailureIgnore>false</testFailureIgnore>
+                    <testFailureIgnore> false </testFailureIgnore>
                     <suiteXmlFiles>
                         <suiteXmlFile>src/test/resources/runner/testng.xml</suiteXmlFile>
 
                     </suiteXmlFiles>
                 </configuration>
-
 
             </plugin>
 
@@ -144,7 +148,5 @@
             </testResource>
         </testResources>
 
-
     </build>
-
 </project>

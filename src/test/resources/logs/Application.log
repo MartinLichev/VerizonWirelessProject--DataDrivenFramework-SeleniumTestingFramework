@@ -1,99 +1,99 @@
-17/09/2020 15:26:18 devpinoyLogger Configuration file loaded!
-17/09/2020 15:26:18 devpinoyLogger Page Properties file loaded!
-17/09/2020 15:26:18 devpinoyLogger Dummy File loaded!
-17/09/2020 15:26:21 devpinoyLogger Firefox Driver launched!
-17/09/2020 15:26:22 devpinoyLogger loginWithNoDataRememberMeCheckBoxTicked started successfully!
-17/09/2020 15:26:24 devpinoyLogger Successfully navigated to:https://www.verizon.com/
-17/09/2020 15:26:29 devpinoyLogger Successfully navigated to:https://secure.verizon.com/vzauth/UI/Login
-17/09/2020 15:26:29 devpinoyLogger Application paused successfully for: 500 milliseconds
-17/09/2020 15:26:30 devpinoyLogger loginWithNoDataRememberMeCheckBoxTicked executed successfully!
-17/09/2020 15:26:30 devpinoyLogger loginWithNoDataRememberMeCheckBoxUnchecked started successfully!
-17/09/2020 15:26:32 devpinoyLogger Successfully navigated to:https://www.verizon.com/
-17/09/2020 15:26:33 devpinoyLogger Successfully navigated to:https://secure.verizon.com/vzauth/UI/Login
-17/09/2020 15:26:34 devpinoyLogger Application paused successfully for: 500 milliseconds
-17/09/2020 15:26:35 devpinoyLogger loginWithNoDataRememberMeCheckBoxUnchecked executed successfully!
-17/09/2020 15:26:35 devpinoyLogger loginWithPasswordOnly started successfully!
-17/09/2020 15:26:36 devpinoyLogger Successfully navigated to:https://www.verizon.com/
-17/09/2020 15:26:37 devpinoyLogger Successfully navigated to:https://secure.verizon.com/vzauth/UI/Login
-17/09/2020 15:26:38 devpinoyLogger Application paused successfully for: 500 milliseconds
-17/09/2020 15:26:40 devpinoyLogger Application paused successfully for: 500 milliseconds
-17/09/2020 15:26:40 devpinoyLogger loginWithPasswordOnly executed successfully!
-17/09/2020 15:26:40 devpinoyLogger loginWithUsernameOnly started successfully!
-17/09/2020 15:26:41 devpinoyLogger Successfully navigated to:https://www.verizon.com/
-17/09/2020 15:26:42 devpinoyLogger Successfully navigated to:https://secure.verizon.com/vzauth/UI/Login
-17/09/2020 15:26:43 devpinoyLogger Application paused successfully for: 500 milliseconds
-17/09/2020 15:26:44 devpinoyLogger Application paused successfully for: 500 milliseconds
-17/09/2020 15:26:44 devpinoyLogger loginWithUsernameOnly executed successfully!
-17/09/2020 15:26:44 devpinoyLogger loginWithValidUsernameAndPassword started successfully!
-17/09/2020 15:26:46 devpinoyLogger Successfully navigated to:https://www.verizon.com/
-17/09/2020 15:26:47 devpinoyLogger Successfully navigated to:https://secure.verizon.com/vzauth/UI/Login
-17/09/2020 15:26:48 devpinoyLogger Application paused successfully for: 500 milliseconds
-17/09/2020 15:26:50 devpinoyLogger Application paused successfully for: 500 milliseconds
-17/09/2020 15:26:50 devpinoyLogger loginWithValidUsernameAndPassword executed successfully!
-17/09/2020 15:26:50 devpinoyLogger loginWithValidUsernameAndPasswordCheckBoxTicked started successfully!
-17/09/2020 15:26:51 devpinoyLogger Successfully navigated to:https://www.verizon.com/
-17/09/2020 15:26:56 devpinoyLogger Successfully navigated to:https://secure.verizon.com/vzauth/UI/Login
-17/09/2020 15:26:56 devpinoyLogger Application paused successfully for: 500 milliseconds
-17/09/2020 15:26:58 devpinoyLogger Application paused successfully for: 500 milliseconds
-17/09/2020 15:26:58 devpinoyLogger loginWithValidUsernameAndPasswordCheckBoxTicked executed successfully!
-17/09/2020 15:26:58 devpinoyLogger enterAverageRatingLeaveComments started successfully!
-17/09/2020 15:27:00 devpinoyLogger Successfully navigated to:https://www.verizon.com/
-17/09/2020 15:27:01 devpinoyLogger Driver switched successfully to: kampyleForm1098 frame
-17/09/2020 15:27:04 devpinoyLogger Application paused successfully for: 400 milliseconds
-17/09/2020 15:27:04 devpinoyLogger Application paused successfully for: 400 milliseconds
-17/09/2020 15:27:06 devpinoyLogger Application paused successfully for: 400 milliseconds
-17/09/2020 15:27:06 devpinoyLogger enterAverageRatingLeaveComments executed successfully!
-17/09/2020 15:27:06 devpinoyLogger enterAverageRatingWithoutComments started successfully!
-17/09/2020 15:27:08 devpinoyLogger Successfully navigated to:https://www.verizon.com/
-17/09/2020 15:27:09 devpinoyLogger Driver switched successfully to: kampyleForm1098 frame
-17/09/2020 15:27:11 devpinoyLogger Application paused successfully for: 400 milliseconds
-17/09/2020 15:27:12 devpinoyLogger enterAverageRatingWithoutComments executed successfully!
-17/09/2020 15:27:12 devpinoyLogger enterHighestRatingLeaveComments started successfully!
-17/09/2020 15:27:13 devpinoyLogger Successfully navigated to:https://www.verizon.com/
-17/09/2020 15:27:14 devpinoyLogger Driver switched successfully to: kampyleForm1098 frame
-17/09/2020 15:27:15 devpinoyLogger Application paused successfully for: 400 milliseconds
-17/09/2020 15:27:16 devpinoyLogger Application paused successfully for: 400 milliseconds
-17/09/2020 15:27:18 devpinoyLogger Application paused successfully for: 400 milliseconds
-17/09/2020 15:27:19 devpinoyLogger enterHighestRatingLeaveComments executed successfully!
-17/09/2020 15:27:19 devpinoyLogger enterHighestRatingWithoutComments started successfully!
-17/09/2020 15:27:20 devpinoyLogger Successfully navigated to:https://www.verizon.com/
-17/09/2020 15:27:22 devpinoyLogger Driver switched successfully to: kampyleForm1098 frame
-17/09/2020 15:27:24 devpinoyLogger Application paused successfully for: 400 milliseconds
-17/09/2020 15:27:24 devpinoyLogger enterHighestRatingWithoutComments executed successfully!
-17/09/2020 15:27:24 devpinoyLogger enterLowerRatingLeaveComments started successfully!
-17/09/2020 15:27:26 devpinoyLogger Successfully navigated to:https://www.verizon.com/
-17/09/2020 15:27:27 devpinoyLogger Driver switched successfully to: kampyleForm1098 frame
-17/09/2020 15:27:28 devpinoyLogger Application paused successfully for: 400 milliseconds
-17/09/2020 15:27:28 devpinoyLogger Application paused successfully for: 400 milliseconds
-17/09/2020 15:27:31 devpinoyLogger Application paused successfully for: 400 milliseconds
-17/09/2020 15:27:31 devpinoyLogger enterLowerRatingLeaveComments executed successfully!
-17/09/2020 15:27:31 devpinoyLogger enterLowerRatingWithoutComments started successfully!
-17/09/2020 15:27:33 devpinoyLogger Successfully navigated to:https://www.verizon.com/
-17/09/2020 15:27:34 devpinoyLogger Driver switched successfully to: kampyleForm1098 frame
-17/09/2020 15:27:37 devpinoyLogger Application paused successfully for: 400 milliseconds
-17/09/2020 15:27:37 devpinoyLogger enterLowerRatingWithoutComments executed successfully!
-17/09/2020 15:27:37 devpinoyLogger enterLowestRatingLeaveComments started successfully!
-17/09/2020 15:27:38 devpinoyLogger Successfully navigated to:https://www.verizon.com/
-17/09/2020 15:27:40 devpinoyLogger Driver switched successfully to: kampyleForm1098 frame
-17/09/2020 15:27:42 devpinoyLogger Application paused successfully for: 400 milliseconds
-17/09/2020 15:27:43 devpinoyLogger Application paused successfully for: 400 milliseconds
-17/09/2020 15:27:44 devpinoyLogger Application paused successfully for: 400 milliseconds
-17/09/2020 15:27:45 devpinoyLogger "enterLowestRatingLeaveComments executed successfully!
-17/09/2020 15:27:45 devpinoyLogger enterLowestRatingWithoutComments started successfully!
-17/09/2020 15:27:46 devpinoyLogger Successfully navigated to:https://www.verizon.com/
-17/09/2020 15:27:48 devpinoyLogger Driver switched successfully to: kampyleForm1098 frame
-17/09/2020 15:27:50 devpinoyLogger Application paused successfully for: 400 milliseconds
-17/09/2020 15:27:51 devpinoyLogger enterLowestRatingWithoutComments executed successfully!
-17/09/2020 15:27:51 devpinoyLogger enterNormalRatingLeaveComments started successfully!
-17/09/2020 15:27:52 devpinoyLogger Successfully navigated to:https://www.verizon.com/
-17/09/2020 15:27:53 devpinoyLogger Driver switched successfully to: kampyleForm1098 frame
-17/09/2020 15:27:53 devpinoyLogger Application paused successfully for: 400 milliseconds
-17/09/2020 15:27:54 devpinoyLogger Application paused successfully for: 400 milliseconds
-17/09/2020 15:27:57 devpinoyLogger Application paused successfully for: 400 milliseconds
-17/09/2020 15:27:57 devpinoyLogger enterNormalRatingLeaveComments executed successfully!
-17/09/2020 15:27:57 devpinoyLogger enterNormalRatingWithoutComments started successfully!
-17/09/2020 15:27:59 devpinoyLogger Successfully navigated to:https://www.verizon.com/
-17/09/2020 15:28:00 devpinoyLogger Driver switched successfully to: kampyleForm1098 frame
-17/09/2020 15:28:03 devpinoyLogger Application paused successfully for: 400 milliseconds
-17/09/2020 15:28:03 devpinoyLogger enterNormalRatingWithoutComments executed successfully!
-17/09/2020 15:28:04 devpinoyLogger Firefox Driver quit successfully!
+17/09/2020 16:08:21 devpinoyLogger Configuration file loaded!
+17/09/2020 16:08:21 devpinoyLogger Page Properties file loaded!
+17/09/2020 16:08:21 devpinoyLogger Dummy File loaded!
+17/09/2020 16:08:25 devpinoyLogger Firefox Driver launched!
+17/09/2020 16:08:25 devpinoyLogger loginWithNoDataRememberMeCheckBoxTicked started successfully!
+17/09/2020 16:08:29 devpinoyLogger Successfully navigated to:https://www.verizon.com/
+17/09/2020 16:08:33 devpinoyLogger Successfully navigated to:https://secure.verizon.com/vzauth/UI/Login
+17/09/2020 16:08:33 devpinoyLogger Application paused successfully for: 500 milliseconds
+17/09/2020 16:08:34 devpinoyLogger loginWithNoDataRememberMeCheckBoxTicked executed successfully!
+17/09/2020 16:08:34 devpinoyLogger loginWithNoDataRememberMeCheckBoxUnchecked started successfully!
+17/09/2020 16:08:36 devpinoyLogger Successfully navigated to:https://www.verizon.com/
+17/09/2020 16:08:37 devpinoyLogger Successfully navigated to:https://secure.verizon.com/vzauth/UI/Login
+17/09/2020 16:08:37 devpinoyLogger Application paused successfully for: 500 milliseconds
+17/09/2020 16:08:38 devpinoyLogger loginWithNoDataRememberMeCheckBoxUnchecked executed successfully!
+17/09/2020 16:08:38 devpinoyLogger loginWithPasswordOnly started successfully!
+17/09/2020 16:08:40 devpinoyLogger Successfully navigated to:https://www.verizon.com/
+17/09/2020 16:08:41 devpinoyLogger Successfully navigated to:https://secure.verizon.com/vzauth/UI/Login
+17/09/2020 16:08:41 devpinoyLogger Application paused successfully for: 500 milliseconds
+17/09/2020 16:08:43 devpinoyLogger Application paused successfully for: 500 milliseconds
+17/09/2020 16:08:43 devpinoyLogger loginWithPasswordOnly executed successfully!
+17/09/2020 16:08:43 devpinoyLogger loginWithUsernameOnly started successfully!
+17/09/2020 16:08:45 devpinoyLogger Successfully navigated to:https://www.verizon.com/
+17/09/2020 16:08:46 devpinoyLogger Successfully navigated to:https://secure.verizon.com/vzauth/UI/Login
+17/09/2020 16:08:47 devpinoyLogger Application paused successfully for: 500 milliseconds
+17/09/2020 16:08:49 devpinoyLogger Application paused successfully for: 500 milliseconds
+17/09/2020 16:08:49 devpinoyLogger loginWithUsernameOnly executed successfully!
+17/09/2020 16:08:49 devpinoyLogger loginWithValidUsernameAndPassword started successfully!
+17/09/2020 16:08:50 devpinoyLogger Successfully navigated to:https://www.verizon.com/
+17/09/2020 16:08:52 devpinoyLogger Successfully navigated to:https://secure.verizon.com/vzauth/UI/Login
+17/09/2020 16:08:52 devpinoyLogger Application paused successfully for: 500 milliseconds
+17/09/2020 16:08:56 devpinoyLogger Application paused successfully for: 500 milliseconds
+17/09/2020 16:08:56 devpinoyLogger loginWithValidUsernameAndPassword executed successfully!
+17/09/2020 16:08:56 devpinoyLogger loginWithValidUsernameAndPasswordCheckBoxTicked started successfully!
+17/09/2020 16:08:56 devpinoyLogger Successfully navigated to:https://www.verizon.com/
+17/09/2020 16:09:02 devpinoyLogger Successfully navigated to:https://secure.verizon.com/vzauth/UI/Login
+17/09/2020 16:09:02 devpinoyLogger Application paused successfully for: 500 milliseconds
+17/09/2020 16:09:05 devpinoyLogger Application paused successfully for: 500 milliseconds
+17/09/2020 16:09:05 devpinoyLogger loginWithValidUsernameAndPasswordCheckBoxTicked executed successfully!
+17/09/2020 16:09:05 devpinoyLogger enterAverageRatingLeaveComments started successfully!
+17/09/2020 16:09:06 devpinoyLogger Successfully navigated to:https://www.verizon.com/
+17/09/2020 16:09:08 devpinoyLogger Driver switched successfully to: kampyleForm1098 frame
+17/09/2020 16:09:10 devpinoyLogger Application paused successfully for: 400 milliseconds
+17/09/2020 16:09:10 devpinoyLogger Application paused successfully for: 400 milliseconds
+17/09/2020 16:09:12 devpinoyLogger Application paused successfully for: 400 milliseconds
+17/09/2020 16:09:14 devpinoyLogger enterAverageRatingLeaveComments executed successfully!
+17/09/2020 16:09:14 devpinoyLogger enterAverageRatingWithoutComments started successfully!
+17/09/2020 16:09:15 devpinoyLogger Successfully navigated to:https://www.verizon.com/
+17/09/2020 16:09:17 devpinoyLogger Driver switched successfully to: kampyleForm1098 frame
+17/09/2020 16:09:19 devpinoyLogger Application paused successfully for: 400 milliseconds
+17/09/2020 16:09:20 devpinoyLogger enterAverageRatingWithoutComments executed successfully!
+17/09/2020 16:09:20 devpinoyLogger enterHighestRatingLeaveComments started successfully!
+17/09/2020 16:09:21 devpinoyLogger Successfully navigated to:https://www.verizon.com/
+17/09/2020 16:09:22 devpinoyLogger Driver switched successfully to: kampyleForm1098 frame
+17/09/2020 16:09:25 devpinoyLogger Application paused successfully for: 400 milliseconds
+17/09/2020 16:09:25 devpinoyLogger Application paused successfully for: 400 milliseconds
+17/09/2020 16:09:27 devpinoyLogger Application paused successfully for: 400 milliseconds
+17/09/2020 16:09:27 devpinoyLogger enterHighestRatingLeaveComments executed successfully!
+17/09/2020 16:09:27 devpinoyLogger enterHighestRatingWithoutComments started successfully!
+17/09/2020 16:09:29 devpinoyLogger Successfully navigated to:https://www.verizon.com/
+17/09/2020 16:09:30 devpinoyLogger Driver switched successfully to: kampyleForm1098 frame
+17/09/2020 16:09:32 devpinoyLogger Application paused successfully for: 400 milliseconds
+17/09/2020 16:09:33 devpinoyLogger enterHighestRatingWithoutComments executed successfully!
+17/09/2020 16:09:33 devpinoyLogger enterLowerRatingLeaveComments started successfully!
+17/09/2020 16:09:34 devpinoyLogger Successfully navigated to:https://www.verizon.com/
+17/09/2020 16:09:35 devpinoyLogger Driver switched successfully to: kampyleForm1098 frame
+17/09/2020 16:09:38 devpinoyLogger Application paused successfully for: 400 milliseconds
+17/09/2020 16:09:38 devpinoyLogger Application paused successfully for: 400 milliseconds
+17/09/2020 16:09:40 devpinoyLogger Application paused successfully for: 400 milliseconds
+17/09/2020 16:09:40 devpinoyLogger enterLowerRatingLeaveComments executed successfully!
+17/09/2020 16:09:40 devpinoyLogger enterLowerRatingWithoutComments started successfully!
+17/09/2020 16:09:42 devpinoyLogger Successfully navigated to:https://www.verizon.com/
+17/09/2020 16:09:43 devpinoyLogger Driver switched successfully to: kampyleForm1098 frame
+17/09/2020 16:09:46 devpinoyLogger Application paused successfully for: 400 milliseconds
+17/09/2020 16:09:46 devpinoyLogger enterLowerRatingWithoutComments executed successfully!
+17/09/2020 16:09:46 devpinoyLogger enterLowestRatingLeaveComments started successfully!
+17/09/2020 16:09:47 devpinoyLogger Successfully navigated to:https://www.verizon.com/
+17/09/2020 16:09:49 devpinoyLogger Driver switched successfully to: kampyleForm1098 frame
+17/09/2020 16:09:51 devpinoyLogger Application paused successfully for: 400 milliseconds
+17/09/2020 16:09:52 devpinoyLogger Application paused successfully for: 400 milliseconds
+17/09/2020 16:09:53 devpinoyLogger Application paused successfully for: 400 milliseconds
+17/09/2020 16:09:54 devpinoyLogger "enterLowestRatingLeaveComments executed successfully!
+17/09/2020 16:09:54 devpinoyLogger enterLowestRatingWithoutComments started successfully!
+17/09/2020 16:09:55 devpinoyLogger Successfully navigated to:https://www.verizon.com/
+17/09/2020 16:09:56 devpinoyLogger Driver switched successfully to: kampyleForm1098 frame
+17/09/2020 16:09:57 devpinoyLogger Application paused successfully for: 400 milliseconds
+17/09/2020 16:09:59 devpinoyLogger enterLowestRatingWithoutComments executed successfully!
+17/09/2020 16:09:59 devpinoyLogger enterNormalRatingLeaveComments started successfully!
+17/09/2020 16:10:00 devpinoyLogger Successfully navigated to:https://www.verizon.com/
+17/09/2020 16:10:01 devpinoyLogger Driver switched successfully to: kampyleForm1098 frame
+17/09/2020 16:10:04 devpinoyLogger Application paused successfully for: 400 milliseconds
+17/09/2020 16:10:04 devpinoyLogger Application paused successfully for: 400 milliseconds
+17/09/2020 16:10:06 devpinoyLogger Application paused successfully for: 400 milliseconds
+17/09/2020 16:10:06 devpinoyLogger enterNormalRatingLeaveComments executed successfully!
+17/09/2020 16:10:06 devpinoyLogger enterNormalRatingWithoutComments started successfully!
+17/09/2020 16:10:08 devpinoyLogger Successfully navigated to:https://www.verizon.com/
+17/09/2020 16:10:10 devpinoyLogger Driver switched successfully to: kampyleForm1098 frame
+17/09/2020 16:10:12 devpinoyLogger Application paused successfully for: 400 milliseconds
+17/09/2020 16:10:12 devpinoyLogger enterNormalRatingWithoutComments executed successfully!
+17/09/2020 16:10:14 devpinoyLogger Firefox Driver quit successfully!
