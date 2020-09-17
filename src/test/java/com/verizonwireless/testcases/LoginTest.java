@@ -1,6 +1,7 @@
 package com.verizonwireless.testcases;
 
 import com.verizonwireless.base.BaseClass;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class LoginTest extends BaseClass {
