@@ -12,6 +12,7 @@ public class FeedBackFormTest extends BaseClass {
     @Test
     public void enterLowestRatingLeaveComments() {
 
+        log.debug("enterLowestRatingLeaveComments started successfully!");
         navigateToPage(webDriver, "homePageURL");
         explicitWait(webDriver,"feedbackFormButton_ID");
         click(webDriver, "feedbackFormButton_ID");
@@ -24,6 +25,7 @@ public class FeedBackFormTest extends BaseClass {
         type(webDriver,"leaveCommentsField_XPATH$","dummyLoremIpsum");
         addThreadSleep(webDriver,400);
         click(webDriver,"submitFormButton_XPATH");
+        log.debug("\"enterLowestRatingLeaveComments executed successfully!");
 
 
     }
@@ -31,6 +33,7 @@ public class FeedBackFormTest extends BaseClass {
     @Test
     public void enterLowerRatingLeaveComments() {
 
+        log.debug("enterLowerRatingLeaveComments started successfully!");
         navigateToPage(webDriver, "homePageURL");
         explicitWait(webDriver,"feedbackFormButton_ID");
         click(webDriver, "feedbackFormButton_ID");
@@ -43,6 +46,7 @@ public class FeedBackFormTest extends BaseClass {
         type(webDriver,"leaveCommentsField_XPATH$","dummyLoremIpsum");
         addThreadSleep(webDriver,400);
         click(webDriver,"submitFormButton_XPATH");
+        log.debug("enterLowerRatingLeaveComments executed successfully!");
 
 
     }
@@ -50,6 +54,7 @@ public class FeedBackFormTest extends BaseClass {
     @Test
     public void enterAverageRatingLeaveComments() {
 
+        log.debug("enterAverageRatingLeaveComments started successfully!");
         navigateToPage(webDriver, "homePageURL");
         explicitWait(webDriver,"feedbackFormButton_ID");
         click(webDriver, "feedbackFormButton_ID");
@@ -62,12 +67,14 @@ public class FeedBackFormTest extends BaseClass {
         type(webDriver,"leaveCommentsField_XPATH$","dummyLoremIpsum");
         addThreadSleep(webDriver,400);
         click(webDriver,"submitFormButton_XPATH");
+        log.debug("enterAverageRatingLeaveComments executed successfully!");
 
     }
 
     @Test
     public void enterNormalRatingLeaveComments() {
 
+        log.debug("enterNormalRatingLeaveComments started successfully!");
         navigateToPage(webDriver, "homePageURL");
         explicitWait(webDriver,"feedbackFormButton_ID");
         click(webDriver, "feedbackFormButton_ID");
@@ -80,6 +87,7 @@ public class FeedBackFormTest extends BaseClass {
         type(webDriver,"leaveCommentsField_XPATH$","dummyLoremIpsum");
         addThreadSleep(webDriver,400);
         click(webDriver,"submitFormButton_XPATH");
+        log.debug("enterNormalRatingLeaveComments executed successfully!");
 
 
     }
@@ -87,6 +95,7 @@ public class FeedBackFormTest extends BaseClass {
     @Test
     public void enterHighestRatingLeaveComments() {
 
+        log.debug("enterHighestRatingLeaveComments started successfully!");
         navigateToPage(webDriver, "homePageURL");
         explicitWait(webDriver,"feedbackFormButton_ID");
         click(webDriver, "feedbackFormButton_ID");
@@ -99,6 +108,7 @@ public class FeedBackFormTest extends BaseClass {
         type(webDriver,"leaveCommentsField_XPATH$","dummyLoremIpsum");
         addThreadSleep(webDriver,400);
         click(webDriver,"submitFormButton_XPATH");
+        log.debug("enterHighestRatingLeaveComments executed successfully!");
 
 
     }
@@ -106,6 +116,7 @@ public class FeedBackFormTest extends BaseClass {
     @Test
     public void enterLowestRatingWithoutComments() {
 
+        log.debug("enterLowestRatingWithoutComments started successfully!");
         navigateToPage(webDriver, "homePageURL");
         explicitWait(webDriver,"feedbackFormButton_ID");
         click(webDriver, "feedbackFormButton_ID");
@@ -114,6 +125,7 @@ public class FeedBackFormTest extends BaseClass {
         click(webDriver,"ratingFirstDigit_XPATH");
         addThreadSleep(webDriver,400);
         click(webDriver,"submitFormButton_XPATH");
+        log.debug("enterLowestRatingWithoutComments executed successfully!");
 
 
     }
@@ -121,6 +133,7 @@ public class FeedBackFormTest extends BaseClass {
     @Test
     public void enterLowerRatingWithoutComments() {
 
+        log.debug("enterLowerRatingWithoutComments started successfully!");
         navigateToPage(webDriver, "homePageURL");
         explicitWait(webDriver,"feedbackFormButton_ID");
         click(webDriver, "feedbackFormButton_ID");
@@ -129,6 +142,7 @@ public class FeedBackFormTest extends BaseClass {
         click(webDriver,"ratingSecondDigit_XPATH");
         addThreadSleep(webDriver,400);
         click(webDriver,"submitFormButton_XPATH");
+        log.debug("enterLowerRatingWithoutComments executed successfully!");
 
 
     }
@@ -136,6 +150,7 @@ public class FeedBackFormTest extends BaseClass {
     @Test
     public void enterAverageRatingWithoutComments() {
 
+        log.debug("enterAverageRatingWithoutComments started successfully!");
         navigateToPage(webDriver, "homePageURL");
         explicitWait(webDriver,"feedbackFormButton_ID");
         click(webDriver, "feedbackFormButton_ID");
@@ -144,6 +159,7 @@ public class FeedBackFormTest extends BaseClass {
         click(webDriver,"ratingThirdDigit_XPATH");
         addThreadSleep(webDriver,400);
         click(webDriver,"submitFormButton_XPATH");
+        log.debug("enterAverageRatingWithoutComments executed successfully!");
 
 
     }
@@ -151,6 +167,7 @@ public class FeedBackFormTest extends BaseClass {
     @Test
     public void enterNormalRatingWithoutComments() {
 
+        log.debug("enterNormalRatingWithoutComments started successfully!");
         navigateToPage(webDriver, "homePageURL");
         explicitWait(webDriver,"feedbackFormButton_ID");
         click(webDriver, "feedbackFormButton_ID");
@@ -159,6 +176,7 @@ public class FeedBackFormTest extends BaseClass {
         click(webDriver,"ratingForthDigit_XPATH");
         addThreadSleep(webDriver,400);
         click(webDriver,"submitFormButton_XPATH");
+        log.debug("enterNormalRatingWithoutComments executed successfully!");
 
 
     }
@@ -166,6 +184,7 @@ public class FeedBackFormTest extends BaseClass {
     @Test
     public void enterHighestRatingWithoutComments() {
 
+        log.debug("enterHighestRatingWithoutComments started successfully!");
         navigateToPage(webDriver, "homePageURL");
         explicitWait(webDriver,"feedbackFormButton_ID");
         click(webDriver, "feedbackFormButton_ID");
@@ -174,6 +193,7 @@ public class FeedBackFormTest extends BaseClass {
         click(webDriver,"ratingFifthDigit_XPATH");
         addThreadSleep(webDriver,400);
         click(webDriver,"submitFormButton_XPATH");
+        log.debug("enterHighestRatingWithoutComments executed successfully!");
 
 
     }

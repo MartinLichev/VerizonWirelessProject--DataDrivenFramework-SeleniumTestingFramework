@@ -110,10 +110,10 @@ public class BaseClass {
             webDriver.close();
         }
 
-        if(webDriver.equals("chrome")){
+        if(configProperties.getProperty("browser").equals("chrome")){
             log.debug("Chrome Driver quit successfully!");
 
-        }else if(webDriver.equals("firefox")){
+        }else if(configProperties.getProperty("browser").equals("firefox")){
             log.debug("Firefox Driver quit successfully!");
 
         }
@@ -233,7 +233,7 @@ public class BaseClass {
     public void navigateToPage(WebDriver webDriver, String URL) {
 
         webDriver.navigate().to(configProperties.getProperty(URL));
-        log.debug("Successfully navigated to:" + System.getProperty(URL));
+        log.debug("Successfully navigated to:" + configProperties.getProperty(URL));
     }
 
     public void implicitWait(WebDriver webDriver, TimeUnit timeUnit) {
