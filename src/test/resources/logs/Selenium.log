@@ -1,0 +1,66 @@
+14:02:18,700 DEBUG devpinoyLogger:48 - Configuration file loaded!
+14:02:18,700 DEBUG devpinoyLogger:63 - Page Properties file loaded!
+14:02:18,716 DEBUG devpinoyLogger:78 - Dummy File loaded!
+14:02:22,902 DEBUG devpinoyLogger:97 - Firefox Driver launched!
+14:02:25,821 DEBUG devpinoyLogger:236 - Successfully navigated to:null
+14:02:27,507 DEBUG devpinoyLogger:236 - Successfully navigated to:null
+14:02:28,009 DEBUG devpinoyLogger:266 - Application paused successfully for: 500 milliseconds
+14:02:30,456 DEBUG devpinoyLogger:236 - Successfully navigated to:null
+14:02:31,342 DEBUG devpinoyLogger:236 - Successfully navigated to:null
+14:02:31,844 DEBUG devpinoyLogger:266 - Application paused successfully for: 500 milliseconds
+14:02:34,181 DEBUG devpinoyLogger:236 - Successfully navigated to:null
+14:02:35,500 DEBUG devpinoyLogger:236 - Successfully navigated to:null
+14:02:36,002 DEBUG devpinoyLogger:266 - Application paused successfully for: 500 milliseconds
+14:02:37,661 DEBUG devpinoyLogger:266 - Application paused successfully for: 500 milliseconds
+14:02:39,180 DEBUG devpinoyLogger:236 - Successfully navigated to:null
+14:02:40,569 DEBUG devpinoyLogger:236 - Successfully navigated to:null
+14:02:41,070 DEBUG devpinoyLogger:266 - Application paused successfully for: 500 milliseconds
+14:02:42,724 DEBUG devpinoyLogger:266 - Application paused successfully for: 500 milliseconds
+14:02:43,996 DEBUG devpinoyLogger:236 - Successfully navigated to:null
+14:02:45,299 DEBUG devpinoyLogger:236 - Successfully navigated to:null
+14:02:45,801 DEBUG devpinoyLogger:266 - Application paused successfully for: 500 milliseconds
+14:02:47,794 DEBUG devpinoyLogger:266 - Application paused successfully for: 500 milliseconds
+14:02:49,057 DEBUG devpinoyLogger:236 - Successfully navigated to:null
+14:02:55,210 DEBUG devpinoyLogger:236 - Successfully navigated to:null
+14:02:55,711 DEBUG devpinoyLogger:266 - Application paused successfully for: 500 milliseconds
+14:02:58,332 DEBUG devpinoyLogger:266 - Application paused successfully for: 500 milliseconds
+14:02:59,566 DEBUG devpinoyLogger:236 - Successfully navigated to:null
+14:03:00,907 DEBUG devpinoyLogger:272 - Driver switched successfully to: kampyleForm1098 frame
+14:03:03,556 DEBUG devpinoyLogger:266 - Application paused successfully for: 400 milliseconds
+14:03:03,957 DEBUG devpinoyLogger:266 - Application paused successfully for: 400 milliseconds
+14:03:05,515 DEBUG devpinoyLogger:266 - Application paused successfully for: 400 milliseconds
+14:03:07,134 DEBUG devpinoyLogger:236 - Successfully navigated to:null
+14:03:08,352 DEBUG devpinoyLogger:272 - Driver switched successfully to: kampyleForm1098 frame
+14:03:09,069 DEBUG devpinoyLogger:266 - Application paused successfully for: 400 milliseconds
+14:03:12,761 DEBUG devpinoyLogger:236 - Successfully navigated to:null
+14:03:16,028 DEBUG devpinoyLogger:272 - Driver switched successfully to: kampyleForm1098 frame
+14:03:16,751 DEBUG devpinoyLogger:266 - Application paused successfully for: 400 milliseconds
+14:03:17,153 DEBUG devpinoyLogger:266 - Application paused successfully for: 400 milliseconds
+14:03:18,703 DEBUG devpinoyLogger:266 - Application paused successfully for: 400 milliseconds
+14:03:20,423 DEBUG devpinoyLogger:236 - Successfully navigated to:null
+14:03:21,695 DEBUG devpinoyLogger:272 - Driver switched successfully to: kampyleForm1098 frame
+14:03:24,333 DEBUG devpinoyLogger:266 - Application paused successfully for: 400 milliseconds
+14:03:25,775 DEBUG devpinoyLogger:236 - Successfully navigated to:null
+14:03:26,972 DEBUG devpinoyLogger:272 - Driver switched successfully to: kampyleForm1098 frame
+14:03:27,710 DEBUG devpinoyLogger:266 - Application paused successfully for: 400 milliseconds
+14:03:28,116 DEBUG devpinoyLogger:266 - Application paused successfully for: 400 milliseconds
+14:03:31,076 DEBUG devpinoyLogger:266 - Application paused successfully for: 400 milliseconds
+14:03:32,718 DEBUG devpinoyLogger:236 - Successfully navigated to:null
+14:03:33,952 DEBUG devpinoyLogger:272 - Driver switched successfully to: kampyleForm1098 frame
+14:03:36,652 DEBUG devpinoyLogger:266 - Application paused successfully for: 400 milliseconds
+14:03:38,240 DEBUG devpinoyLogger:236 - Successfully navigated to:null
+14:03:39,459 DEBUG devpinoyLogger:272 - Driver switched successfully to: kampyleForm1098 frame
+14:03:40,183 DEBUG devpinoyLogger:266 - Application paused successfully for: 400 milliseconds
+14:03:40,584 DEBUG devpinoyLogger:266 - Application paused successfully for: 400 milliseconds
+14:03:43,396 DEBUG devpinoyLogger:266 - Application paused successfully for: 400 milliseconds
+14:03:44,620 DEBUG devpinoyLogger:236 - Successfully navigated to:null
+14:03:45,701 DEBUG devpinoyLogger:272 - Driver switched successfully to: kampyleForm1098 frame
+14:03:46,419 DEBUG devpinoyLogger:266 - Application paused successfully for: 400 milliseconds
+14:03:50,246 DEBUG devpinoyLogger:236 - Successfully navigated to:null
+14:03:51,527 DEBUG devpinoyLogger:272 - Driver switched successfully to: kampyleForm1098 frame
+14:03:54,268 DEBUG devpinoyLogger:266 - Application paused successfully for: 400 milliseconds
+14:03:54,668 DEBUG devpinoyLogger:266 - Application paused successfully for: 400 milliseconds
+14:03:56,257 DEBUG devpinoyLogger:266 - Application paused successfully for: 400 milliseconds
+14:03:58,030 DEBUG devpinoyLogger:236 - Successfully navigated to:null
+14:03:59,111 DEBUG devpinoyLogger:272 - Driver switched successfully to: kampyleForm1098 frame
+14:03:59,851 DEBUG devpinoyLogger:266 - Application paused successfully for: 400 milliseconds

@@ -1,5 +1,6 @@
 package com.verizonwireless.base;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -11,11 +12,12 @@ import org.testng.annotations.BeforeSuite;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.NoSuchElementException;
 import java.util.Properties;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
-import java.util.logging.Logger;
 
 public class BaseClass {
 
@@ -24,7 +26,7 @@ public class BaseClass {
     public static Properties pagesElementsProperties;
     public static Properties loremIpsumDummyFileProperties;
     public static FileInputStream fileInputStream;
-    public static Logger logger;
+    public static Logger log = Logger.getLogger("devpinoyLogger");
     public static WebElement dropDown;
 
 
@@ -43,6 +45,8 @@ public class BaseClass {
             }
             try {
                 configProperties.load(fileInputStream);
+                log.debug("Configuration file loaded!");
+
             } catch (IOException ioException) {
                 ioException.printStackTrace();
             }
@@ -56,6 +60,8 @@ public class BaseClass {
             }
             try {
                 pagesElementsProperties.load(fileInputStream);
+                log.debug("Page Properties file loaded!");
+
             } catch (IOException ioException) {
                 ioException.printStackTrace();
             }
@@ -69,6 +75,8 @@ public class BaseClass {
             }
             try {
                 loremIpsumDummyFileProperties.load(fileInputStream);
+                log.debug("Dummy File loaded!");
+
             } catch (IOException ioException) {
                 ioException.printStackTrace();
             }
@@ -79,12 +87,14 @@ public class BaseClass {
 
             System.setProperty("webdriver.chrome.driver", "C:\\Users\\Martin Lichev\\IdeaProjects\\VerizonWirelessProject\\src\\test\\resources\\executables\\chromedriver.exe");
             webDriver = new ChromeDriver();
+            log.debug("Chrome Driver launched!");
 
         } else if (configProperties.getProperty("browser").equals("firefox")) {
 
 
             System.setProperty("webdriver.gecko.driver", "C:\\Users\\Martin Lichev\\IdeaProjects\\VerizonWirelessProject\\src\\test\\resources\\executables\\geckodriver.exe");
             webDriver = new FirefoxDriver();
+            log.debug("Firefox Driver launched!");
 
         }
 
@@ -98,6 +108,14 @@ public class BaseClass {
 
         if (webDriver != null) {
             webDriver.close();
+        }
+
+        if(webDriver.equals("chrome")){
+            log.debug("Chrome Driver quit successfully!");
+
+        }else if(webDriver.equals("firefox")){
+            log.debug("Firefox Driver quit successfully!");
+
         }
 
 
@@ -204,6 +222,7 @@ public class BaseClass {
     public void deleteCookies(WebDriver webDriver) {
 
         webDriver.manage().deleteAllCookies();
+        log.debug("Cookies erased successfully!");
     }
 
     public void maximizeBrowserWindow(WebDriver webDriver) {
@@ -214,11 +233,13 @@ public class BaseClass {
     public void navigateToPage(WebDriver webDriver, String URL) {
 
         webDriver.navigate().to(configProperties.getProperty(URL));
+        log.debug("Successfully navigated to:" + System.getProperty(URL));
     }
 
     public void implicitWait(WebDriver webDriver, TimeUnit timeUnit) {
 
         webDriver.manage().timeouts().implicitlyWait(Integer.parseInt(configProperties.getProperty("implicitWait")), timeUnit);
+        log.debug("Application paused successfully for: " + timeUnit);
     }
 
     public boolean isElementPresent(By by) {
@@ -241,11 +262,14 @@ public class BaseClass {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+
+        log.debug("Application paused successfully for: " + milliSeconds + " milliseconds");
     }
 
     public void switchToIFrame(WebDriver webDriver, String frameName){
 
         webDriver.switchTo().frame(frameName);
+        log.debug("Driver switched successfully to: " + frameName + " frame");
     }
 
 }
