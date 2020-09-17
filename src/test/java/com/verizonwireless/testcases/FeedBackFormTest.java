@@ -26,7 +26,7 @@ public class FeedBackFormTest extends BaseClass {
         type(webDriver,"leaveCommentsField_XPATH$","dummyLoremIpsum");
         addThreadSleep(webDriver,400);
         click(webDriver,"submitFormButton_XPATH");
-        log.debug("\"enterLowestRatingLeaveComments executed successfully!");
+        log.debug("enterLowestRatingLeaveComments executed successfully!");
 
 
     }
