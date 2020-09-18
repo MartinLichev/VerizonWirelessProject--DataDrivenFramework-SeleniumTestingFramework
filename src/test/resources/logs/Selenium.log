@@ -1,99 +1,196 @@
-18:03:40,681 DEBUG devpinoyLogger:46 - Configuration file loaded!
-18:03:40,681 DEBUG devpinoyLogger:61 - Page Properties file loaded!
-18:03:40,681 DEBUG devpinoyLogger:76 - Dummy File loaded!
-18:03:43,920 DEBUG devpinoyLogger:95 - Firefox Driver launched!
-18:03:44,205 DEBUG devpinoyLogger:78 - loginWithNoDataRememberMeCheckBoxTicked started successfully!
-18:03:46,674 DEBUG devpinoyLogger:234 - Successfully navigated to:https://www.verizon.com/
-18:03:48,671 DEBUG devpinoyLogger:234 - Successfully navigated to:https://secure.verizon.com/vzauth/UI/Login
-18:03:49,173 DEBUG devpinoyLogger:264 - Application paused successfully for: 500 milliseconds
-18:03:50,204 DEBUG devpinoyLogger:84 - loginWithNoDataRememberMeCheckBoxTicked executed successfully!
-18:03:50,207 DEBUG devpinoyLogger:91 - loginWithNoDataRememberMeCheckBoxUnchecked started successfully!
-18:03:51,641 DEBUG devpinoyLogger:234 - Successfully navigated to:https://www.verizon.com/
-18:03:52,998 DEBUG devpinoyLogger:234 - Successfully navigated to:https://secure.verizon.com/vzauth/UI/Login
-18:03:53,499 DEBUG devpinoyLogger:264 - Application paused successfully for: 500 milliseconds
-18:03:54,285 DEBUG devpinoyLogger:96 - loginWithNoDataRememberMeCheckBoxUnchecked executed successfully!
-18:03:54,285 DEBUG devpinoyLogger:46 - loginWithPasswordOnly started successfully!
-18:03:55,603 DEBUG devpinoyLogger:234 - Successfully navigated to:https://www.verizon.com/
-18:03:56,621 DEBUG devpinoyLogger:234 - Successfully navigated to:https://secure.verizon.com/vzauth/UI/Login
-18:03:57,122 DEBUG devpinoyLogger:264 - Application paused successfully for: 500 milliseconds
-18:03:58,742 DEBUG devpinoyLogger:264 - Application paused successfully for: 500 milliseconds
-18:03:58,742 DEBUG devpinoyLogger:54 - loginWithPasswordOnly executed successfully!
-18:03:58,742 DEBUG devpinoyLogger:31 - loginWithUsernameOnly started successfully!
-18:04:00,061 DEBUG devpinoyLogger:234 - Successfully navigated to:https://www.verizon.com/
-18:04:00,963 DEBUG devpinoyLogger:234 - Successfully navigated to:https://secure.verizon.com/vzauth/UI/Login
-18:04:01,464 DEBUG devpinoyLogger:264 - Application paused successfully for: 500 milliseconds
-18:04:03,069 DEBUG devpinoyLogger:264 - Application paused successfully for: 500 milliseconds
-18:04:03,069 DEBUG devpinoyLogger:39 - loginWithUsernameOnly executed successfully!
-18:04:03,069 DEBUG devpinoyLogger:13 - loginWithValidUsernameAndPassword started successfully!
-18:04:04,465 DEBUG devpinoyLogger:234 - Successfully navigated to:https://www.verizon.com/
-18:04:05,261 DEBUG devpinoyLogger:234 - Successfully navigated to:https://secure.verizon.com/vzauth/UI/Login
-18:04:05,762 DEBUG devpinoyLogger:264 - Application paused successfully for: 500 milliseconds
-18:04:07,466 DEBUG devpinoyLogger:264 - Application paused successfully for: 500 milliseconds
-18:04:07,466 DEBUG devpinoyLogger:23 - loginWithValidUsernameAndPassword executed successfully!
-18:04:07,466 DEBUG devpinoyLogger:60 - loginWithValidUsernameAndPasswordCheckBoxTicked started successfully!
-18:04:08,854 DEBUG devpinoyLogger:234 - Successfully navigated to:https://www.verizon.com/
-18:04:14,522 DEBUG devpinoyLogger:234 - Successfully navigated to:https://secure.verizon.com/vzauth/UI/Login
-18:04:15,023 DEBUG devpinoyLogger:264 - Application paused successfully for: 500 milliseconds
-18:04:17,274 DEBUG devpinoyLogger:264 - Application paused successfully for: 500 milliseconds
-18:04:17,274 DEBUG devpinoyLogger:71 - loginWithValidUsernameAndPasswordCheckBoxTicked executed successfully!
-18:04:17,274 DEBUG devpinoyLogger:58 - enterAverageRatingLeaveComments started successfully!
-18:04:18,662 DEBUG devpinoyLogger:234 - Successfully navigated to:https://www.verizon.com/
-18:04:19,965 DEBUG devpinoyLogger:270 - Driver switched successfully to: kampyleForm1098 frame
-18:04:22,773 DEBUG devpinoyLogger:264 - Application paused successfully for: 400 milliseconds
-18:04:23,173 DEBUG devpinoyLogger:264 - Application paused successfully for: 400 milliseconds
-18:04:24,709 DEBUG devpinoyLogger:264 - Application paused successfully for: 400 milliseconds
-18:04:25,010 DEBUG devpinoyLogger:71 - enterAverageRatingLeaveComments executed successfully!
-18:04:25,010 DEBUG devpinoyLogger:154 - enterAverageRatingWithoutComments started successfully!
-18:04:26,469 DEBUG devpinoyLogger:234 - Successfully navigated to:https://www.verizon.com/
-18:04:27,666 DEBUG devpinoyLogger:270 - Driver switched successfully to: kampyleForm1098 frame
-18:04:30,306 DEBUG devpinoyLogger:264 - Application paused successfully for: 400 milliseconds
-18:04:30,661 DEBUG devpinoyLogger:163 - enterAverageRatingWithoutComments executed successfully!
-18:04:30,661 DEBUG devpinoyLogger:99 - enterHighestRatingLeaveComments started successfully!
-18:04:32,033 DEBUG devpinoyLogger:234 - Successfully navigated to:https://www.verizon.com/
-18:04:33,214 DEBUG devpinoyLogger:270 - Driver switched successfully to: kampyleForm1098 frame
-18:04:35,943 DEBUG devpinoyLogger:264 - Application paused successfully for: 400 milliseconds
-18:04:36,344 DEBUG devpinoyLogger:264 - Application paused successfully for: 400 milliseconds
-18:04:37,948 DEBUG devpinoyLogger:264 - Application paused successfully for: 400 milliseconds
-18:04:38,295 DEBUG devpinoyLogger:112 - enterHighestRatingLeaveComments executed successfully!
-18:04:38,295 DEBUG devpinoyLogger:188 - enterHighestRatingWithoutComments started successfully!
-18:04:39,815 DEBUG devpinoyLogger:234 - Successfully navigated to:https://www.verizon.com/
-18:04:41,039 DEBUG devpinoyLogger:270 - Driver switched successfully to: kampyleForm1098 frame
-18:04:43,626 DEBUG devpinoyLogger:264 - Application paused successfully for: 400 milliseconds
-18:04:44,012 DEBUG devpinoyLogger:197 - enterHighestRatingWithoutComments executed successfully!
-18:04:44,012 DEBUG devpinoyLogger:37 - enterLowerRatingLeaveComments started successfully!
-18:04:45,485 DEBUG devpinoyLogger:234 - Successfully navigated to:https://www.verizon.com/
-18:04:46,688 DEBUG devpinoyLogger:270 - Driver switched successfully to: kampyleForm1098 frame
-18:04:49,303 DEBUG devpinoyLogger:264 - Application paused successfully for: 400 milliseconds
-18:04:49,703 DEBUG devpinoyLogger:264 - Application paused successfully for: 400 milliseconds
-18:04:51,245 DEBUG devpinoyLogger:264 - Application paused successfully for: 400 milliseconds
-18:04:51,577 DEBUG devpinoyLogger:50 - enterLowerRatingLeaveComments executed successfully!
-18:04:51,577 DEBUG devpinoyLogger:137 - enterLowerRatingWithoutComments started successfully!
-18:04:53,065 DEBUG devpinoyLogger:234 - Successfully navigated to:https://www.verizon.com/
-18:04:54,337 DEBUG devpinoyLogger:270 - Driver switched successfully to: kampyleForm1098 frame
-18:04:56,966 DEBUG devpinoyLogger:264 - Application paused successfully for: 400 milliseconds
-18:04:57,298 DEBUG devpinoyLogger:146 - enterLowerRatingWithoutComments executed successfully!
-18:04:57,298 DEBUG devpinoyLogger:16 - enterLowestRatingLeaveComments started successfully!
-18:04:58,818 DEBUG devpinoyLogger:234 - Successfully navigated to:https://www.verizon.com/
-18:04:59,974 DEBUG devpinoyLogger:270 - Driver switched successfully to: kampyleForm1098 frame
-18:05:02,620 DEBUG devpinoyLogger:264 - Application paused successfully for: 400 milliseconds
-18:05:03,020 DEBUG devpinoyLogger:264 - Application paused successfully for: 400 milliseconds
-18:05:04,594 DEBUG devpinoyLogger:264 - Application paused successfully for: 400 milliseconds
-18:05:04,964 DEBUG devpinoyLogger:29 - enterLowestRatingLeaveComments executed successfully!
-18:05:04,964 DEBUG devpinoyLogger:120 - enterLowestRatingWithoutComments started successfully!
-18:05:06,499 DEBUG devpinoyLogger:234 - Successfully navigated to:https://www.verizon.com/
-18:05:07,701 DEBUG devpinoyLogger:270 - Driver switched successfully to: kampyleForm1098 frame
-18:05:10,276 DEBUG devpinoyLogger:264 - Application paused successfully for: 400 milliseconds
-18:05:10,662 DEBUG devpinoyLogger:129 - enterLowestRatingWithoutComments executed successfully!
-18:05:10,662 DEBUG devpinoyLogger:78 - enterNormalRatingLeaveComments started successfully!
-18:05:12,181 DEBUG devpinoyLogger:234 - Successfully navigated to:https://www.verizon.com/
-18:05:13,330 DEBUG devpinoyLogger:270 - Driver switched successfully to: kampyleForm1098 frame
-18:05:15,982 DEBUG devpinoyLogger:264 - Application paused successfully for: 400 milliseconds
-18:05:16,383 DEBUG devpinoyLogger:264 - Application paused successfully for: 400 milliseconds
-18:05:17,972 DEBUG devpinoyLogger:264 - Application paused successfully for: 400 milliseconds
-18:05:18,288 DEBUG devpinoyLogger:91 - enterNormalRatingLeaveComments executed successfully!
-18:05:18,288 DEBUG devpinoyLogger:171 - enterNormalRatingWithoutComments started successfully!
-18:05:19,644 DEBUG devpinoyLogger:234 - Successfully navigated to:https://www.verizon.com/
-18:05:20,862 DEBUG devpinoyLogger:270 - Driver switched successfully to: kampyleForm1098 frame
-18:05:23,537 DEBUG devpinoyLogger:264 - Application paused successfully for: 400 milliseconds
-18:05:23,838 DEBUG devpinoyLogger:180 - enterNormalRatingWithoutComments executed successfully!
-18:05:24,874 DEBUG devpinoyLogger:115 - Firefox Driver quit successfully!
+09:59:03,587 DEBUG devpinoyLogger:43 - Application started!
+09:59:03,587 DEBUG devpinoyLogger:53 - Configuration file loaded!
+09:59:03,587 DEBUG devpinoyLogger:68 - Page Properties file loaded!
+09:59:03,587 DEBUG devpinoyLogger:83 - Dummy File loaded!
+09:59:04,035 DEBUG devpinoyLogger:99 - Excel Data loaded!
+09:59:07,771 DEBUG devpinoyLogger:125 - Chrome Driver launched!
+09:59:09,940 DEBUG devpinoyLogger:78 - loginWithNoDataRememberMeCheckBoxTicked started successfully!
+09:59:11,604 DEBUG devpinoyLogger:252 - Successfully navigated to:https://www.verizon.com/
+09:59:13,334 DEBUG devpinoyLogger:252 - Successfully navigated to:https://secure.verizon.com/vzauth/UI/Login
+09:59:13,834 DEBUG devpinoyLogger:282 - Application paused successfully for: 500 milliseconds
+09:59:14,478 DEBUG devpinoyLogger:84 - loginWithNoDataRememberMeCheckBoxTicked executed successfully!
+09:59:14,479 DEBUG devpinoyLogger:91 - loginWithNoDataRememberMeCheckBoxUnchecked started successfully!
+09:59:15,108 DEBUG devpinoyLogger:252 - Successfully navigated to:https://www.verizon.com/
+09:59:16,399 DEBUG devpinoyLogger:252 - Successfully navigated to:https://secure.verizon.com/vzauth/UI/Login
+09:59:16,899 DEBUG devpinoyLogger:282 - Application paused successfully for: 500 milliseconds
+09:59:16,996 DEBUG devpinoyLogger:96 - loginWithNoDataRememberMeCheckBoxUnchecked executed successfully!
+09:59:16,998 DEBUG devpinoyLogger:46 - loginWithPasswordOnly started successfully!
+09:59:17,491 DEBUG devpinoyLogger:252 - Successfully navigated to:https://www.verizon.com/
+09:59:18,377 DEBUG devpinoyLogger:252 - Successfully navigated to:https://secure.verizon.com/vzauth/UI/Login
+09:59:18,877 DEBUG devpinoyLogger:282 - Application paused successfully for: 500 milliseconds
+09:59:20,251 DEBUG devpinoyLogger:282 - Application paused successfully for: 500 milliseconds
+09:59:20,251 DEBUG devpinoyLogger:54 - loginWithPasswordOnly executed successfully!
+09:59:20,253 DEBUG devpinoyLogger:31 - loginWithUsernameOnly started successfully!
+09:59:21,217 DEBUG devpinoyLogger:252 - Successfully navigated to:https://www.verizon.com/
+09:59:22,361 DEBUG devpinoyLogger:252 - Successfully navigated to:https://secure.verizon.com/vzauth/UI/Login
+09:59:22,862 DEBUG devpinoyLogger:282 - Application paused successfully for: 500 milliseconds
+09:59:23,717 DEBUG devpinoyLogger:282 - Application paused successfully for: 500 milliseconds
+09:59:23,717 DEBUG devpinoyLogger:39 - loginWithUsernameOnly executed successfully!
+09:59:23,717 DEBUG devpinoyLogger:13 - loginWithValidUsernameAndPassword started successfully!
+09:59:24,240 DEBUG devpinoyLogger:252 - Successfully navigated to:https://www.verizon.com/
+09:59:24,707 DEBUG devpinoyLogger:252 - Successfully navigated to:https://secure.verizon.com/vzauth/UI/Login
+09:59:25,208 DEBUG devpinoyLogger:282 - Application paused successfully for: 500 milliseconds
+09:59:27,321 DEBUG devpinoyLogger:282 - Application paused successfully for: 500 milliseconds
+09:59:27,321 DEBUG devpinoyLogger:23 - loginWithValidUsernameAndPassword executed successfully!
+09:59:27,323 DEBUG devpinoyLogger:60 - loginWithValidUsernameAndPasswordCheckBoxTicked started successfully!
+09:59:28,135 DEBUG devpinoyLogger:252 - Successfully navigated to:https://www.verizon.com/
+09:59:29,397 DEBUG devpinoyLogger:252 - Successfully navigated to:https://secure.verizon.com/vzauth/UI/Login
+09:59:29,897 DEBUG devpinoyLogger:282 - Application paused successfully for: 500 milliseconds
+09:59:31,344 DEBUG devpinoyLogger:282 - Application paused successfully for: 500 milliseconds
+09:59:31,344 DEBUG devpinoyLogger:71 - loginWithValidUsernameAndPasswordCheckBoxTicked executed successfully!
+09:59:31,349 DEBUG devpinoyLogger:58 - enterAverageRatingLeaveComments started successfully!
+09:59:32,178 DEBUG devpinoyLogger:252 - Successfully navigated to:https://www.verizon.com/
+09:59:33,290 DEBUG devpinoyLogger:288 - Driver switched successfully to: kampyleForm1098 frame
+09:59:33,981 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+09:59:34,381 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+09:59:37,419 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+09:59:37,585 DEBUG devpinoyLogger:71 - enterAverageRatingLeaveComments executed successfully!
+09:59:37,586 DEBUG devpinoyLogger:154 - enterAverageRatingWithoutComments started successfully!
+09:59:38,425 DEBUG devpinoyLogger:252 - Successfully navigated to:https://www.verizon.com/
+09:59:39,397 DEBUG devpinoyLogger:288 - Driver switched successfully to: kampyleForm1098 frame
+09:59:40,084 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+09:59:42,222 DEBUG devpinoyLogger:163 - enterAverageRatingWithoutComments executed successfully!
+09:59:42,223 DEBUG devpinoyLogger:99 - enterHighestRatingLeaveComments started successfully!
+09:59:43,047 DEBUG devpinoyLogger:252 - Successfully navigated to:https://www.verizon.com/
+09:59:43,946 DEBUG devpinoyLogger:288 - Driver switched successfully to: kampyleForm1098 frame
+09:59:44,632 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+09:59:45,033 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+09:59:48,419 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+09:59:48,537 DEBUG devpinoyLogger:112 - enterHighestRatingLeaveComments executed successfully!
+09:59:48,538 DEBUG devpinoyLogger:188 - enterHighestRatingWithoutComments started successfully!
+09:59:49,375 DEBUG devpinoyLogger:252 - Successfully navigated to:https://www.verizon.com/
+09:59:50,325 DEBUG devpinoyLogger:288 - Driver switched successfully to: kampyleForm1098 frame
+09:59:51,017 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+09:59:53,209 DEBUG devpinoyLogger:197 - enterHighestRatingWithoutComments executed successfully!
+09:59:53,210 DEBUG devpinoyLogger:37 - enterLowerRatingLeaveComments started successfully!
+09:59:53,677 DEBUG devpinoyLogger:252 - Successfully navigated to:https://www.verizon.com/
+09:59:56,540 DEBUG devpinoyLogger:288 - Driver switched successfully to: kampyleForm1098 frame
+09:59:57,227 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+09:59:57,632 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+09:59:59,193 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+09:59:59,357 DEBUG devpinoyLogger:50 - enterLowerRatingLeaveComments executed successfully!
+09:59:59,358 DEBUG devpinoyLogger:137 - enterLowerRatingWithoutComments started successfully!
+10:00:00,218 DEBUG devpinoyLogger:252 - Successfully navigated to:https://www.verizon.com/
+10:00:01,124 DEBUG devpinoyLogger:288 - Driver switched successfully to: kampyleForm1098 frame
+10:00:01,805 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+10:00:03,976 DEBUG devpinoyLogger:146 - enterLowerRatingWithoutComments executed successfully!
+10:00:03,977 DEBUG devpinoyLogger:16 - enterLowestRatingLeaveComments started successfully!
+10:00:04,383 DEBUG devpinoyLogger:252 - Successfully navigated to:https://www.verizon.com/
+10:00:07,252 DEBUG devpinoyLogger:288 - Driver switched successfully to: kampyleForm1098 frame
+10:00:07,952 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+10:00:08,353 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+10:00:09,935 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+10:00:10,056 DEBUG devpinoyLogger:29 - enterLowestRatingLeaveComments executed successfully!
+10:00:10,057 DEBUG devpinoyLogger:120 - enterLowestRatingWithoutComments started successfully!
+10:00:10,867 DEBUG devpinoyLogger:252 - Successfully navigated to:https://www.verizon.com/
+10:00:11,769 DEBUG devpinoyLogger:288 - Driver switched successfully to: kampyleForm1098 frame
+10:00:12,456 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+10:00:12,563 DEBUG devpinoyLogger:129 - enterLowestRatingWithoutComments executed successfully!
+10:00:12,564 DEBUG devpinoyLogger:78 - enterNormalRatingLeaveComments started successfully!
+10:00:15,351 DEBUG devpinoyLogger:252 - Successfully navigated to:https://www.verizon.com/
+10:00:16,232 DEBUG devpinoyLogger:288 - Driver switched successfully to: kampyleForm1098 frame
+10:00:16,918 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+10:00:17,318 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+10:00:20,619 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+10:00:20,787 DEBUG devpinoyLogger:91 - enterNormalRatingLeaveComments executed successfully!
+10:00:20,789 DEBUG devpinoyLogger:171 - enterNormalRatingWithoutComments started successfully!
+10:00:21,642 DEBUG devpinoyLogger:252 - Successfully navigated to:https://www.verizon.com/
+10:00:22,549 DEBUG devpinoyLogger:288 - Driver switched successfully to: kampyleForm1098 frame
+10:00:23,243 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+10:00:25,415 DEBUG devpinoyLogger:180 - enterNormalRatingWithoutComments executed successfully!
+10:00:28,034 DEBUG devpinoyLogger:132 - Firefox Driver launched!
+10:00:28,290 DEBUG devpinoyLogger:78 - loginWithNoDataRememberMeCheckBoxTicked started successfully!
+10:00:31,373 DEBUG devpinoyLogger:252 - Successfully navigated to:https://www.verizon.com/
+10:00:35,308 DEBUG devpinoyLogger:252 - Successfully navigated to:https://secure.verizon.com/vzauth/UI/Login
+10:00:35,809 DEBUG devpinoyLogger:282 - Application paused successfully for: 500 milliseconds
+10:00:36,854 DEBUG devpinoyLogger:84 - loginWithNoDataRememberMeCheckBoxTicked executed successfully!
+10:00:36,854 DEBUG devpinoyLogger:91 - loginWithNoDataRememberMeCheckBoxUnchecked started successfully!
+10:00:38,341 DEBUG devpinoyLogger:252 - Successfully navigated to:https://www.verizon.com/
+10:00:39,543 DEBUG devpinoyLogger:252 - Successfully navigated to:https://secure.verizon.com/vzauth/UI/Login
+10:00:40,044 DEBUG devpinoyLogger:282 - Application paused successfully for: 500 milliseconds
+10:00:40,808 DEBUG devpinoyLogger:96 - loginWithNoDataRememberMeCheckBoxUnchecked executed successfully!
+10:00:40,808 DEBUG devpinoyLogger:46 - loginWithPasswordOnly started successfully!
+10:00:42,266 DEBUG devpinoyLogger:252 - Successfully navigated to:https://www.verizon.com/
+10:00:43,351 DEBUG devpinoyLogger:252 - Successfully navigated to:https://secure.verizon.com/vzauth/UI/Login
+10:00:43,852 DEBUG devpinoyLogger:282 - Application paused successfully for: 500 milliseconds
+10:00:45,541 DEBUG devpinoyLogger:282 - Application paused successfully for: 500 milliseconds
+10:00:45,541 DEBUG devpinoyLogger:54 - loginWithPasswordOnly executed successfully!
+10:00:45,541 DEBUG devpinoyLogger:31 - loginWithUsernameOnly started successfully!
+10:00:47,060 DEBUG devpinoyLogger:252 - Successfully navigated to:https://www.verizon.com/
+10:00:47,908 DEBUG devpinoyLogger:252 - Successfully navigated to:https://secure.verizon.com/vzauth/UI/Login
+10:00:48,409 DEBUG devpinoyLogger:282 - Application paused successfully for: 500 milliseconds
+10:00:50,167 DEBUG devpinoyLogger:282 - Application paused successfully for: 500 milliseconds
+10:00:50,167 DEBUG devpinoyLogger:39 - loginWithUsernameOnly executed successfully!
+10:00:50,167 DEBUG devpinoyLogger:13 - loginWithValidUsernameAndPassword started successfully!
+10:00:51,718 DEBUG devpinoyLogger:252 - Successfully navigated to:https://www.verizon.com/
+10:00:52,805 DEBUG devpinoyLogger:252 - Successfully navigated to:https://secure.verizon.com/vzauth/UI/Login
+10:00:53,315 DEBUG devpinoyLogger:282 - Application paused successfully for: 500 milliseconds
+10:00:55,583 DEBUG devpinoyLogger:282 - Application paused successfully for: 500 milliseconds
+10:00:55,583 DEBUG devpinoyLogger:23 - loginWithValidUsernameAndPassword executed successfully!
+10:00:55,583 DEBUG devpinoyLogger:60 - loginWithValidUsernameAndPasswordCheckBoxTicked started successfully!
+10:00:57,125 DEBUG devpinoyLogger:252 - Successfully navigated to:https://www.verizon.com/
+10:01:03,055 DEBUG devpinoyLogger:252 - Successfully navigated to:https://secure.verizon.com/vzauth/UI/Login
+10:01:03,557 DEBUG devpinoyLogger:282 - Application paused successfully for: 500 milliseconds
+10:01:05,479 DEBUG devpinoyLogger:282 - Application paused successfully for: 500 milliseconds
+10:01:05,479 DEBUG devpinoyLogger:71 - loginWithValidUsernameAndPasswordCheckBoxTicked executed successfully!
+10:01:05,479 DEBUG devpinoyLogger:58 - enterAverageRatingLeaveComments started successfully!
+10:01:06,745 DEBUG devpinoyLogger:252 - Successfully navigated to:https://www.verizon.com/
+10:01:07,986 DEBUG devpinoyLogger:288 - Driver switched successfully to: kampyleForm1098 frame
+10:01:10,729 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+10:01:11,130 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+10:01:12,751 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+10:01:13,083 DEBUG devpinoyLogger:71 - enterAverageRatingLeaveComments executed successfully!
+10:01:13,083 DEBUG devpinoyLogger:154 - enterAverageRatingWithoutComments started successfully!
+10:01:14,518 DEBUG devpinoyLogger:252 - Successfully navigated to:https://www.verizon.com/
+10:01:15,704 DEBUG devpinoyLogger:288 - Driver switched successfully to: kampyleForm1098 frame
+10:01:18,379 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+10:01:18,767 DEBUG devpinoyLogger:163 - enterAverageRatingWithoutComments executed successfully!
+10:01:18,767 DEBUG devpinoyLogger:99 - enterHighestRatingLeaveComments started successfully!
+10:01:20,317 DEBUG devpinoyLogger:252 - Successfully navigated to:https://www.verizon.com/
+10:01:21,457 DEBUG devpinoyLogger:288 - Driver switched successfully to: kampyleForm1098 frame
+10:01:24,026 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+10:01:24,427 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+10:01:26,000 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+10:01:26,332 DEBUG devpinoyLogger:112 - enterHighestRatingLeaveComments executed successfully!
+10:01:26,332 DEBUG devpinoyLogger:188 - enterHighestRatingWithoutComments started successfully!
+10:01:27,719 DEBUG devpinoyLogger:252 - Successfully navigated to:https://www.verizon.com/
+10:01:28,838 DEBUG devpinoyLogger:288 - Driver switched successfully to: kampyleForm1098 frame
+10:01:29,555 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+10:01:31,483 DEBUG devpinoyLogger:197 - enterHighestRatingWithoutComments executed successfully!
+10:01:31,483 DEBUG devpinoyLogger:37 - enterLowerRatingLeaveComments started successfully!
+10:01:32,431 DEBUG devpinoyLogger:252 - Successfully navigated to:https://www.verizon.com/
+10:01:33,688 DEBUG devpinoyLogger:288 - Driver switched successfully to: kampyleForm1098 frame
+10:01:34,404 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+10:01:34,810 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+10:01:37,784 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+10:01:38,169 DEBUG devpinoyLogger:50 - enterLowerRatingLeaveComments executed successfully!
+10:01:38,169 DEBUG devpinoyLogger:137 - enterLowerRatingWithoutComments started successfully!
+10:01:39,557 DEBUG devpinoyLogger:252 - Successfully navigated to:https://www.verizon.com/
+10:01:40,706 DEBUG devpinoyLogger:288 - Driver switched successfully to: kampyleForm1098 frame
+10:01:43,403 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+10:01:43,742 DEBUG devpinoyLogger:146 - enterLowerRatingWithoutComments executed successfully!
+10:01:43,742 DEBUG devpinoyLogger:16 - enterLowestRatingLeaveComments started successfully!
+10:01:45,230 DEBUG devpinoyLogger:252 - Successfully navigated to:https://www.verizon.com/
+10:01:48,980 DEBUG devpinoyLogger:288 - Driver switched successfully to: kampyleForm1098 frame
+10:01:49,782 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+10:01:50,183 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+10:01:51,803 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+10:01:52,189 DEBUG devpinoyLogger:29 - enterLowestRatingLeaveComments executed successfully!
+10:01:52,189 DEBUG devpinoyLogger:120 - enterLowestRatingWithoutComments started successfully!
+10:01:53,544 DEBUG devpinoyLogger:252 - Successfully navigated to:https://www.verizon.com/
+10:01:54,694 DEBUG devpinoyLogger:288 - Driver switched successfully to: kampyleForm1098 frame
+10:01:55,412 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+10:01:57,338 DEBUG devpinoyLogger:129 - enterLowestRatingWithoutComments executed successfully!
+10:01:57,338 DEBUG devpinoyLogger:78 - enterNormalRatingLeaveComments started successfully!
+10:01:58,741 DEBUG devpinoyLogger:252 - Successfully navigated to:https://www.verizon.com/
+10:01:59,960 DEBUG devpinoyLogger:288 - Driver switched successfully to: kampyleForm1098 frame
+10:02:02,597 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+10:02:02,998 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+10:02:04,570 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+10:02:04,903 DEBUG devpinoyLogger:91 - enterNormalRatingLeaveComments executed successfully!
+10:02:04,903 DEBUG devpinoyLogger:171 - enterNormalRatingWithoutComments started successfully!
+10:02:06,322 DEBUG devpinoyLogger:252 - Successfully navigated to:https://www.verizon.com/
+10:02:07,541 DEBUG devpinoyLogger:288 - Driver switched successfully to: kampyleForm1098 frame
+10:02:10,125 DEBUG devpinoyLogger:282 - Application paused successfully for: 400 milliseconds
+10:02:10,473 DEBUG devpinoyLogger:180 - enterNormalRatingWithoutComments executed successfully!
+10:02:11,390 DEBUG devpinoyLogger:114 - Application exit!

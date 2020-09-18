@@ -13,14 +13,12 @@ public class ThreadsSleepTest extends BaseClass {
 
     @Test
     public void Test(){
-        navigateToPage(webDriver,"homePageURL");
-        explicitWait(webDriver,"feedbackFormButton_XPATH");
-        click(webDriver,"feedbackFormButton_XPATH");
-        List<WebElement> webElementList = webDriver.findElements(By.xpath("/html/body/div/div/div/div[2]/div[1]/div/div/div[3]/div/div/neb-rating/div/form"));
+        navigateToPage(webDriver,"storesPageURL");
+        List<WebElement> webElementList = webDriver.findElements(By.tagName("a"));
 
         for(WebElement webElement: webElementList){
 
-            System.out.println(webElement.getText());
+            System.out.println(webElement.getAttribute("sitecat-cta"));
         }
 
     }

@@ -1,6 +1,7 @@
 package com.verizonwireless.base;
 
 import org.apache.log4j.Logger;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -9,7 +10,10 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.*;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -24,16 +28,19 @@ public class BaseClass {
     public static Properties pagesElementsProperties;
     public static Properties loremIpsumDummyFileProperties;
     public static FileInputStream fileInputStream;
+    public static File excelData;
+    public static XSSFWorkbook excelSpreadSheet;
     public static Logger log = Logger.getLogger("devpinoyLogger");
     public static WebElement dropDown;
 
 
     @BeforeSuite
-    public void setUp() {
+    public void applicationSetup() {
 
 
         if (webDriver == null) {
 
+            log.debug("Application started!");
             configProperties = new Properties();
 
             try {
@@ -79,15 +86,45 @@ public class BaseClass {
                 ioException.printStackTrace();
             }
 
-        }
+            excelData = new File("C:\\Users\\Martin Lichev\\IdeaProjects\\VerizonWirelessProject\\src\\test\\resources\\excel\\Test_data.xlsx");
+            try {
+                fileInputStream = new FileInputStream(excelData);
 
-        if (configProperties.getProperty("browser").equals("chrome")) {
+            } catch (FileNotFoundException fileNotFoundException) {
+                fileNotFoundException.printStackTrace();
+            }
+
+            try {
+                excelSpreadSheet = new XSSFWorkbook(fileInputStream);
+                log.debug("Excel Data loaded!");
+
+            } catch (IOException ioException) {
+                ioException.printStackTrace();
+            }
+
+        }
+    }
+
+    @AfterSuite
+    public void applicationTearDown() {
+
+        if (webDriver != null) {
+            webDriver.close();
+        }
+        log.debug("Application exit!");
+
+    }
+
+    @BeforeTest
+    @Parameters({"browser"})
+    public void driverSetup(String browser) {
+        if (browser.equals("firefox")) {
 
             System.setProperty("webdriver.chrome.driver", "C:\\Users\\Martin Lichev\\IdeaProjects\\VerizonWirelessProject\\src\\test\\resources\\executables\\chromedriver.exe");
             webDriver = new ChromeDriver();
             log.debug("Chrome Driver launched!");
 
-        } else if (configProperties.getProperty("browser").equals("firefox")) {
+        } else if (browser.equals("chrome")) {
 
 
             System.setProperty("webdriver.gecko.driver", "C:\\Users\\Martin Lichev\\IdeaProjects\\VerizonWirelessProject\\src\\test\\resources\\executables\\geckodriver.exe");
@@ -97,25 +134,6 @@ public class BaseClass {
         }
 
         maximizeBrowserWindow(webDriver);
-
-
-    }
-
-    @AfterSuite
-    public void tearDown() {
-
-        if (webDriver != null) {
-            webDriver.close();
-        }
-
-        if(configProperties.getProperty("browser").equals("chrome")){
-            log.debug("Chrome Driver quit successfully!");
-
-        }else if(configProperties.getProperty("browser").equals("firefox")){
-            log.debug("Firefox Driver quit successfully!");
-
-        }
-
 
     }
 
@@ -156,7 +174,7 @@ public class BaseClass {
         } else if (locator.endsWith("_ClassName")) {
             webDriver.findElement(By.className(pagesElementsProperties.getProperty(locator))).sendKeys(configProperties.getProperty(input));
 
-        } else if(locator.endsWith("_XPATH$")){
+        } else if (locator.endsWith("_XPATH$")) {
             webDriver.findElement(By.xpath(pagesElementsProperties.getProperty(locator))).sendKeys(loremIpsumDummyFileProperties.getProperty(input));
         }
 
@@ -264,7 +282,7 @@ public class BaseClass {
         log.debug("Application paused successfully for: " + milliSeconds + " milliseconds");
     }
 
-    public void switchToIFrame(WebDriver webDriver, String frameName){
+    public void switchToIFrame(WebDriver webDriver, String frameName) {
 
         webDriver.switchTo().frame(frameName);
         log.debug("Driver switched successfully to: " + frameName + " frame");
